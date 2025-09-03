@@ -1,0 +1,38 @@
+
+.more-info-head{
+  display: flex;
+  justify-content: space-between;
+}
+
+.t-j{
+  text-align: justify;
+}
+
+.btn-cls{
+  width:x;
+  border: 0px solid red!important;
+  border-radius: 15px!important;
+}
+
+.btn-cls2{
+  border: 0px solid red!important;
+  border-radius: 35px!important;
+  height: 40px;
+}
+
+.card{
+  width: 330px;
+}
+
+@media (min-width:0px) and (max-width:350){
+  button.w-25{
+    padding-left:5px;
+    padding-right:5px;
+  }
+}
+
+@media (min-width:1400px){
+  .card{
+    width: 400px;
+  }
+}

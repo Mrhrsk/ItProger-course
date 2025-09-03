@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&display=swap');
+
+*{
+  margin:0px;
+  padding: 0px;
+  font-family: 'Roboto Slab',sans-serif;
+}
+
+li{
+  list-style: none;
+}
+
+body{
+  height: 1200px
+}
+
+/*      HEADER      */
+
+header{
+  width: 100%;
+  float: left;
+  background-color: rgb(61,61,61);
+  border-bottom: 3px solid rgb(111,111,111);
+  height:100px;
+  display: block;
+  position: fixed;
+}
+
+section.header {
+  float: left;
+  width:86%;
+  margin: 30px 12% 30px 12%;
+}
+
+.header *{
+  display: inline-block;
+}
+
+.header .logo h1{
+  color: rgb(207, 124, 122);
+  font-size: 30px;
+}
+
+.header .nav{
+  margin: 0 200px;
+  color:white;
+  font-weight: 400;
+  font-size: 22px;
+}
+
+.header .nav ul li{
+  margin:0 10px;
+}
+
+.header .nav ul li:hover{
+  color: gray;
+  cursor: pointer;
+}
+
+.header #search{
+  width: 200px;
+  height: 28px;
+  border: 0px;
+  border-radius: 5px;
+  text-indent: 10px;
+}
+
+/*      HEADER      */
+
+/*      MAIN      */
+
+main{
+  width: 100%;
+  float: left;
+  margin-top: 100px;
+}
+
+main .main{
+  float: left;
+  width:86%;
+  margin:30px 12%;
+}
+
+main .main .big-text{
+  float: left;
+  display: inline-block;
+  border: 1px solid rgb(192,192,192);
+  padding: 40px;
+  margin-right: 50px;
+  height: 400px;
+  width: 700px;
+}
+
+main .main .big-text h2{
+  color: rgb(207, 124, 122);
+  font-size: 30px;
+  margin-bottom: 7px;
+}
+
+main .main .big-text img{
+  margin: 20px 160px;
+  height: auto;
+  width: 340px;
+}
+
+main .main .small-text{
+  display: inline-block;
+  border: 1px solid rgb(192,192,192);
+  padding: 20px;
+  height: 150px;
+  width: 300px;
+}
+
+main .main .small-text h2{
+  color: rgb(207, 124, 122);
+  font-size: 25px;
+  margin-bottom: 7px;
+}
+
+.small-text p{
+  font-size: 14px;
+}
+/*      MAIN      */
+
+/*      FOOTER      */
+
+footer{
+  width: 100%;
+  float: left;
+  background-color: rgb(61,61,61);
+  border-top: 3px solid rgb(111,111,111);
+  height:190px;
+}
+
+footer .lasth{
+  text-align: center;
+  margin-top: 20px;
+}
+
+footer .lasth h2{
+  color: white;
+  font-weight: 400;
+  font-size: 28px;
+}
+
+footer .lasth h2::after{
+  content: "!";
+  font-style: italic;
+}
+
+footer .social-medias {
+  text-align: center;
+}
+
+footer .social-medias ul li{
+  display: inline-block;
+  margin: 20px;
+  color: white;
+  border: 0px;
+  border-radius: 5px;
+  padding: 7px;
+}
+
+footer .social-medias ul li:hover{
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+footer .social-medias ul li:nth-child(1){
+  background-color: rgb(207, 124, 122);
+}
+
+footer .social-medias ul li:nth-child(2){
+  background-color: rgb(134, 179, 216);
+}
+
+footer .social-medias ul li:nth-child(3){
+  background-color: rgb(108, 113, 165);
+}
+
+footer .social-medias ul li:nth-child(4){
+  background-color: rgb(164, 137, 110);
+}
+
+footer p{
+  color: white;
+  margin: 20px 0px 10px 20px;
+}
+/*      FOOTER      */

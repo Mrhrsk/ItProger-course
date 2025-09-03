@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="author" content="Akylbek Miras">
+  <link rel="stylesheet" href="css/style.css">
+  <title></title>
+  <!-- <script src="https://kit.fontawesome.com/d9162f00fa.js" crossorigin="anonymous"></script> -->
+
+</head>
+<body>
+
+<header>
+  <section class="header">
+    <div class="logo">
+      <h1>WebDesign</h1>
+    </div>
+    <div class="nav">
+      <ul>
+        <li>Главная</li>
+        <li>Блог</li>
+        <li>Контакты</li>
+        <li>Про нас</li>
+      </ul>
+    </div>
+    <div class="search">
+      <input type="search" name="search" id="search" placeholder="Поиск">
+    </div>
+  </section>
+</header>
+
+<main>
+  <section class="main">
+    <div class="big-text">
+      <h2>Последние новости</h2>
+      <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <img src="../itproger/first-module-html/image.png" alt="image">
+    </div>
+    <div class="small-text">
+      <h2>Уведомление</h2>
+      <p>Lorem ipsum dolor <mark>sit amet</mark>, consectetur adipisicing elit. Ullam neque nesciunt earum possimus, sit rerum corporis explicabo nihil distinctio quam repudiandae temporibus qui pariatur esse nostrum consequatur sint.</p>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="lasth">
+    <h2 id="lasth">Крутой СМИ портал</h2>
+  </div>
+  <div class="social-medias">
+    <ul>
+      <li>YouTube</li>
+      <li>Twitter</li>
+      <li>Facebook</li>
+      <li>Instagramm</li>
+    </ul>
+  </div>
+  <p>Все права защищены©</p>
+</footer>
+</body>
+</html>

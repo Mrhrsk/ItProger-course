@@ -1,0 +1,64 @@
+
+.bootstrap{
+  border: 3px solid black;
+  margin:25px;
+  padding:50px;
+}
+
+.block2{
+  width: 300px;
+  height: 200px;
+  background: #fafafa;
+  margin: 20px;
+  top:100px!important;
+}
+
+.box{
+  max-width: auto;
+  height: auto;
+  padding: 20px;
+  margin: 20px 0px 20px 0px;
+}
+
+
+
+.bg{
+  background-color: lightgray;
+}
+
+.bg-2{
+  background-color: gray;
+}
+
+.block{
+  border: 2px solid black;
+}
+
+:root{
+  --border: 2px solid silver;
+}
+
+.bd {
+  border: var(--border);
+}
+
+.txt{
+  width:200px;
+}
+
+.image{
+  width: 300px;
+}
+
+.n{
+  text-align: center!important;
+}
+
+table{
+  width: 1512px!important;
+}
+
+.main-form{
+  margin: 20px;
+  width: 500px;
+}

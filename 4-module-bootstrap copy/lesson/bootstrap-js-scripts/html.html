@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="author" content="Akylbek Miras">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="frameworks/bootstrap/css/bootstrap.min.css">
+  <title>Bootstrap</title>
+  <!-- <script src="https://kit.fontawesome.com/d9162f00fa.js" crossorigin="anonymous"></script> -->
+</head>
+<body>
+  <!-- //////////////////// -->
+  <div class="bootstrap">
+    <div class="container m-5 p-3 bg-light">
+      <div class="btn-group">
+        <a href=".hideObjects"  class="btn btn-danger p-3" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="hideObject hideObject-2">Увидеть оба блока</a>
+        <a href="#hideObject" class="btn btn-success p-3" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="hideObject">Увидеть первый блок</a>
+        <a href="#hideObject-2" class="btn btn-info p-3" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="hideObject-2">Увидеть второй блок</a>
+        <!-- aria-expanded - это значение, будет ли скрыт объект или нет; data-bs-toggle - "способ открытия или действия" блока; aria-controls - показывает каким блоком/элементом управляет данная кнопка/элемент-->
+        <!-- для тега button мы используем data-bs-target вместо href как в теге a - но этот атрибут выполняет туже функцию -->
+      </div>
+      <div class="collapse my-3 hideObjects" id="hideObject"><!-- нужно обязательно писать класс collapse, так как в кнопках указывается именно этот метод действия; есть класс show - он может сделать блок открытым по умолчанию-->
+        <div class="alert alert-success">
+          <button type="button" name="button" class="btn btn-danger mx-3 btn-close float-end" aria-label="Close" data-bs-target="#hideObject" data-bs-toggle="collapse" aria-expanded="false" aria-controls="hideObject"></button>
+          <h2 class="alert-heading">1 блок</h2>
+          <!-- <p class="my-2">Если двинешься - гей</p> -->
+        </div>
+      </div>
+
+      <div class="collapse collapse-horizontal my-3 hideObjects" id="hideObject-2" style="max-height:76px;"><!-- нужно обязательно писать класс collapse, так как в кнопках указывается именно этот метод действия; есть класс show - он может сделать блок открытым по умолчанию-->
+        <div class="alert alert-info">
+          <button type="button" name="button" class="btn btn-danger mx-3 btn-close float-end" aria-label="Close" data-bs-target="#hideObject-2" data-bs-toggle="collapse" aria-expanded="false" aria-controls="hideObject-2"></button>
+          <h2 class="alert-heading">2 блок</h2>
+          <!-- <p class="my-2">Если двинешься - гей</p> -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="bootstrap">
+    <div class="container m-5 p-3 ">
+      <div class="btn-group">
+      <!-- есть классы dropstart, dropend, dropup, dropbottom - они показывают откуда будет выпадать список -->
+        <button type="button" class="m-4 p-3 btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Log-in/Sign-in</button>
+        <!-- aria-haspopup - показывает-помогает сделать и открыть выпадающий список -->
+        <div class="dropdown-menu">
+          <span class="dropdown-text-item m-3">Tap-tap!</span>
+          <a class="dropdown-item" href="#">First link</a>
+          <a class="dropdown-item" href="#">Second link</a>
+          <a class="dropdown-item" href="#">Third link</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Separated link</a>
+        </div>
+      </div>
+
+      <div class="btn-group dropdown-center">
+      <!-- dropdown-center - центрирует список -->
+        <button type="button" class="btn btn-danger">Log-in/Sign-in(centered, splittded)</button>
+        <button type="button" class="btn btn-danger dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" ariahaspopup="true" aria-expanded="false">
+        <!-- dropdown-toggle-split - класс помогает соеденить раздельно;  -->
+          <span class="visually-hidden">Toggle Dropdown</span>
+          <!--необязательно!!!-->
+        </button>
+        <div class="dropdown-menu">
+          <form class="form p-4">
+            <div class="mb-3">
+              <label for="exampleDropdownFormEmail2" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="exampleDropdownFormEmail2" placeholder="email@example.com">
+            </div>
+            <div class="mb-3">
+              <label for="exampleDropdownFormPassword2" class="form-label">Password</label>
+              <input type="password" class="form-control" id="exampleDropdownFormPassword2" placeholder="Password">
+            </div>
+            <div class="mb-3">
+              <div class="form-check">
+                <input type="checkbox" class="form-check-input" id="dropdownCheck2">
+                <label class="form-check-label" for="dropdownCheck2">
+                  Remember me
+                </label>
+              </div>
+            </div>
+            <button type="submit" class="btn btn-primary">Sign in</button>
+          </form>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">New around here? Sign up</a>
+          <a class="dropdown-item" href="#">Forgot password?</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="bootstrap">
+    <div class="container m-5 p-3 ">
+      <button type="button" class="m-4 p-3 btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-window"> Открыть модальное окно</button>
+      <button type="button" class="m-4 p-3 btn btn-dark" data-bs-toggle="modal" data-bs-target="#modal-window-static"> Открыть (статичное) модальное окно</button>
+      <button type="button" class="m-4 p-3 btn btn-info" data-bs-toggle="modal" data-bs-target="#modal-window-scrole"> Открыть (статично) скрольное окно с динамичным Body</button>
+      <button type="button" class="m-4 p-3 btn btn-warning" data-bs-toggle="modal" data-bs-target="#modal-window-centered"> Открыть (статично) центрированное окно</button>
+    </div>
+  </div>
+
+
+
+
+  <div class="modal fade" id="modal-window" aria-hidden="true" tabindex="-1" role="dialog" aria-labelledby="modal-window-label" >
+  <!-- класс fade плавно открывает модальное окно; aria-labelledby - как aria-label - дает невидимое имя элемту, что бы html читал его как текст -->
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3 class="modal-title" id="modal-window-label">Window's name</h3>
+          <button type="button" name="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+          <!-- data-bs-dismiss - этот атрибут ссылается/обращается на элемент который будет закрывать/закрываться -->
+      <!-- <span aria-hidden="true">&times;</span> это крестик; &times; - специальный html символ -->
+          </button>
+          <!-- Это кнопка закрытия окна-->
+        </div>
+        <div class="modal-body">
+          <p>Можно закрыть нажав за пределы окна, на кнопки Close; X; и на клавишу ECS</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button><button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="modal-window-static" data-bs-backdrop="static" data-bs-keyboard="false" aria-hidden="true" tabindex="-1" role="dialog" aria-labelledby="modal-window-label">
+  <!-- data-bs-backdrop - атрибут настраивет заднее затемнение и статичность:значения: true(по умолчанию) - просто затемненный фон; false - фон без затемнения; static - не дает закрыть окно, нажав за пределы окна или нажав на клавишу ESC -->
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3 class="modal-title" id="modal-window-label">Static Window</h3>
+          <button type="button" name="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>U cant close this window by tap out of window by button ESC</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="modal-window-scrole" data-bs-backdrop="static" data-bs-keyboard="false" aria-hidden="true" tabindex="-1" role="dialog" aria-labelledby="modal-window-label">
+      <div class="modal-dialog modal-dialog-scrollable" role="document">
+        <!-- modal-dialg-scrollable - атрибут делает статичный скролл окна, только с динамичным body -->
+        <div class="modal-content">
+          <div class="modal-header">
+            <h3 class="modal-title" id="modal-window-label">Static-scrole Window</h3>
+            <button type="button" name="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <p>dynamic-scrollable body, but header and footer r static</p>
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+            <h2 style="margin-left: 150px; margin-right: 150px; margin-bottom:200px">Here u go</h2>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="modal-window-centered" data-bs-backdrop="static" data-bs-keyboard="false" aria-hidden="true" tabindex="-1" role="dialog" aria-labelledby="modal-window-label">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h3 class="modal-title" id="modal-window-label">centered static window</h3>
+            <button type="button" name="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <p>Vertically centered window</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  <!-- //////////////////// -->
+ <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+ <script src="frameworks/bootstrap/js/bootstrap.bundle.min.js"></script>
+ <!-- <script src="frameworks/bootstrap/js/bootstrap.min.js"></script> -->
+</body>
+</html>

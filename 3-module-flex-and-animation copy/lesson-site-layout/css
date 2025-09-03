@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@300;800&display=swap');
+
+*{
+  margin:0;
+  padding:0;
+}
+
+body{
+  font-family: 'M PLUS 1p', sans-serif;
+  font-size: 16px;
+  color:#000;
+  background-color: white;
+  width:100%;
+}
+
+a{
+  text-decoration: none;
+}
+
+/*         Header         */
+
+header{
+  background: #F8F8F8;
+  box-shadow: 2px 4px 6px rgba(194, 192, 192, 0.25);
+  width: 100%;
+  height: 90px;
+  padding: 10px 0;
+}
+
+header .all-header{
+  width: 74%;
+  margin:0 13%;
+}
+
+header .all-header .lang{
+  text-align: right;
+  width: 100%;
+}
+
+header .all-header .lang a{
+  font-size: 14px;
+  color:#c4c4c4;
+  font-weight: 800;
+}
+
+header .all-header .lang a.active{
+  /* margin-right: 15px; */
+}
+
+header .all-header .lang a.active,header .all-header .lang a:hover{
+  color:#000;
+  border-bottom: 2px solid black;
+  /* margin-left: 5px; */
+}
+
+header .all-header .header-main{
+  display: flex;
+  margin-top:15px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .all-header .header-main input{
+  height: 44px;
+  width: 360px;
+  border: none;
+  background-color: #ECECEC;
+  color: #111010;
+  /* margin-left: 100px;
+  margin-right: 65px; */
+  text-indent: 23px;
+}
+
+header .all-header .header-main a{
+  font-size: 14px;
+  font-weight: 800;
+  color: #000;
+  /* margin-left: 45px;
+  margin-right: 40px; */
+}
+
+header .all-header .header-main a:hover{
+  color: gray;
+}
+
+header .all-header .header-main button.login{
+  /* margin-left: 40px;
+  margin-right: 25px; */
+}
+
+header .all-header .header-main button[type="button"].signup:hover,header .all-header .header-main button[type="button"].login:hover{
+  cursor: pointer;
+  background-color: gray;
+}
+
+header .all-header .header-main button.login, header .all-header .header-main button.signup:hover{
+  border: 2px solid #000;
+  padding: 12px;
+  color:#000;
+  font-size: 14px;
+  font-weight: 800;
+  background-color: #fff;
+}
+
+header .all-header .header-main button.signup, header .all-header .header-main button.login:hover{
+  border: 2px solid #000;
+  padding: 12px;
+  color:#fff;
+  font-size: 14px;
+  font-weight: 800;
+  background-color: #000;
+}
+
+/*         Header         */
+
+
+
+/*          MAIN          */
+
+main{
+  width: 100%;
+}
+
+main .section{
+  display: flex;
+  /* flex-basis: 74%; */
+  flex-direction: column;
+  margin: 50px 13%;
+}
+
+main .section .h h2 span{
+  display: inline-block;
+  margin-left: 30px;
+  margin-right: 17px;
+  margin-bottom: 7px;
+  height: 2px;
+  width: 30px;
+  background-color: #000;
+}
+
+main .section .h h2{
+  font-weight: 800;
+  font-size: 24px;
+}
+
+main .section .img-block {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+main .section .img-block .oneimg{
+  /* display: inline-block; */
+  margin: 20px 9px;
+}
+
+main .section .img-block .oneimg img{
+  /* width:350px;
+  height: 246px; */
+  margin-bottom: 10px;
+}
+
+main .section .img-block .last{
+  position: relative;
+}
+
+main .section .img-block .last div{
+  position: absolute;
+  padding: 5px 12px;
+  background-color: #000;
+  right:-23px;
+  bottom: 90px;
+  opacity: 0;
+  border:0px solid black;
+  border-radius: 1000px;
+  box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.3);
+  transition: all .12s ease;
+}
+
+main .section .img-block .last div i{
+  font-size: 50px;
+  color:yellow;
+}
+
+main .section .img-block .last:hover div{
+  opacity: 1;
+  cursor: pointer;
+}
+
+main .section .img-block .oneimg h4{
+  font-weight: 800;
+  font-size: 16px;
+}
+
+main .section .img-block .oneimg p{
+  font-weight: 300;
+  font-size: 14px;
+}
+
+/*          MAIN          */
+
+
+
+/*          FOOTER          */
+
+footer{
+  width: 100%;
+  backgroun d-color: #000;
+}
+
+footer div.footer{
+  height: 45px;
+  background-color: #000;
+  text-align: center;
+  margin:73px 0;
+}
+
+footer div a{
+  color:#fff;
+  font-weight: 300;
+  font-size: 14px;
+}
+
+footer div a:hover{
+  color:gray;
+}

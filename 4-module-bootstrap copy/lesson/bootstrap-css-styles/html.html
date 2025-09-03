@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="author" content="Akylbek Miras">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="frameworks/bootstrap/css/bootstrap.min.css">
+  <title>Bootstrap</title>
+  <!-- <script src="https://kit.fontawesome.com/d9162f00fa.js" crossorigin="anonymous"></script> -->
+</head>
+<body>
+
+<!-- ///////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+
+<div class="bootstrap">
+  <div class="container bg bd" >
+    <div class="row justify-content-around align-items-center">
+      <div class="col block col-md-3 col-lg-2 col-xl-3 col-xxl-1 offset-xxl-1 bd">row 1 col 1 Lorem ipsum dolor sit.</div>
+      <div class="col block col-md-3 col-lg-2 col-xl-3 col-xxl-1 offset-xxl-4 align-self-stretch bd">row 1 col 2</div>
+      <div class="col block col-md-3 col-lg-2 col-xl-3 col-xxl-1 offset-xxl-4 bd">row 1 col 3</div>
+    </div>
+
+    <hr>
+
+    <div class="row">
+      <div class="col">row 2 col 1</div>
+      <div class="col">row 2 col 2</div>
+      <div class="col">row 2 col 3</div>
+      <div class="col">row 2 col 4</div>
+      <div class="col">row 2 col 5</div>
+      <div class="col">row 2 col 6</div>
+      <div class="col">row 2 col 7</div>
+      <div class="col">row 2 col 8</div>
+      <div class="col">row 2 col 9</div>
+      <div class="col">row 2 col 10</div>
+      <div class="col">row 2 col 11</div>
+      <div class="col">row 2 col 12</div>
+    </div>
+
+    <hr>
+  </div>
+</div>
+
+<!-- ///////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+<div class="bootstrap">
+  <h1>jdj</h1>
+  <h2 class="mb-5 mt-3 me-1 ms-4 pt-2 ps-3 fw-lighters">fjej</h2>   <!-- mt/pt-margin top/padding top; mb/pb-margin bottom/padding bottom; me/pe-margin right/padding right; ms/ps-margin left/padding left; mx/px-margin X/ padding X (both: right and left); my/py-margin Y/ padding Y (both: top and bottom); -->
+  <h3 class="ms-5 ps-5 text-warning">hjfbe</h3>      <!-- значение после дифиза может быть от нуля до пяти, от самого маленького к самому большому отступу соответсвенно. -->
+  <h4>ehfbfe</h4>
+  <h5 class="float-end display-4 bg-info me-5">ehf</h5>
+  <h6>jdjhe</h6>
+  <h7 class="display-2">cnejhf</h7>
+
+  <hr>
+
+  <p class="text-primary text-start text-md-center text-uppercase fst-italic"> Lorem <mark>ipsum</mark> dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  <p class="txt ms-5 mt-4 text-nowrap bg-danger text-capitalize font-weight-light"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, voluptates debitis tenetur quos provident quibusdam, pariatur assumenda adipisci ipsa ea.</p>
+  <p class="mt-5 ms-4 fw-bold fst-italic text-end">Lorem ipsum dolor sit amet, consectetur adipisicing.</p> <!-- fw-font weight; fst-font(fst-italic==font-italic) -->
+  <p class="lead ms-3">mini-заголовок</p>
+
+  <hr>
+
+  <div class="image">
+    <img src="https://itproger.com/img/intensivs/csharp.svg" class="img-fluid img-thumbnail ms-3 float-start"><!-- img-thumbnail-делает небольшой скругленную обводку вокруг картинки и добавляет адаптивность; img-fluid-просто добавлляет адаптивность без дополнительных стилей; -->
+    <img src="https://itproger.com/img/intensivs/csharp.svg" class="img-fluid rounded-4 ms-3 mt-4"><!-- rounded-добавляет скругленные угла у самой картинки, степень скругленности углов можно менять от 1 до 5 -->
+  </div>
+
+  <hr>
+
+  <span class="d-block mx-5"> это span, со свойством display-block(d-block)</span>
+
+  <hr>
+
+  <pre class="bd">function some(){
+    var x = 0;
+    return x;
+  }</pre>
+
+  <hr>
+
+  <code>var x = 0;</code>
+
+  <hr>
+
+  <kbd style=" display:block; width:65px; ">ctrl+s</kbd>
+</div>
+
+<!-- ///////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+<div class="bootstrap">
+   <hr>
+   <div class="table-responsive"> <!-- можно скроллить таблицу вбок при сжатии страницы-->
+    <table class="table table-striped table-secondary table-bordered table-hover">
+      <thead class="text-center">
+        <tr>
+          <th>№</th>
+          <th>Name</th>
+          <th>Age</th>
+        </tr>
+      </thead>
+      <tmain>
+        <tr>
+          <th>1</th>
+          <td>John</th>
+          <td>23</th>
+        </tr>
+        <tr>
+          <th>2</th>
+          <td>Kate</th>
+          <td>22</th>
+        </tr>
+        <tr>
+          <th>3</th>
+          <td>Kathy</th>
+          <td>27</th>
+        </tr>
+        <tr>
+          <th>4</th>
+          <td>Jacob</th>
+          <td>29</th>
+        </tr>
+      </tmain>
+    </table>
+  </div>
+</div>
+  <!-- ///////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+<div class="bootstrap">
+   <button class="m-5 p-3 btn btn-danger btn-lg">нажми на меня, класс:btn-lg</button>
+  <button class="m-5 p-3 btn btn-link btn-md">это тег "button", с классом btn-link</button>
+  <a href="#" class="m-5 btn btn-link btn-info btn-sm">это тег "a",с классом btn-link ,btn-sm</a>
+  <input type="button" class="m-5 btn btn-warning active" value="это тег 'input', с type='button', класс: active ">
+
+  <br><br>
+
+  <button class="m-5 p-3 btn btn-outline-danger" style="width:300px; height: 150px;">нажми на меня</button>
+
+  <br><br>
+
+  <button class="p-3 btn btn-secondary d-block w-100 disabled">классы: d-block , w-100, disabled</button>
+
+  <br><br>
+
+  <div class="m-3 ms-5 btn-group">
+    <button type="button" class="py-3 px-5 btn btn-primary">Это</button>
+    <button type="button" class="py-3 px-5 btn btn-success">группа</button>
+    <button type="button" class="py-3 px-5 btn btn-warning">кнопок</button>
+  </div>
+
+  <br>
+
+  <div class="m-3 ms-5 btn-group btn-group-vertical">
+    <button type="button" class="py-3 px-5 btn btn-primary">Это</button>
+    <button type="button" class="py-3 px-5 btn btn-success">группа</button>
+    <button type="button" class="py-3 px-5 btn btn-warning">кнопок</button>
+  </div>
+  <div class="m-3 ms-5 btn-toolbar">
+    <div class="btn-group">
+      <button type="button" class="py-3 px-5 btn btn-primary">Это</button>
+      <button type="button" class="py-3 px-5 btn btn-success">мульти</button>
+      <button type="button" class="py-3 px-5 btn btn-warning">группа</button>
+    </div>
+    <div class="btn-group">
+      <button type="button" class="py-3 px-5 btn btn-info">кнопок</button>
+      <button type="button" class="py-3 px-5 btn btn-danger">из других</button>
+    </div>
+    <div class="btn-group">
+      <button type="button" class="py-3 px-5 btn btn-dark">групп кнопок</button>
+    </div>
+  </div>
+</div>
+
+<!-- ///////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+
+<div class="bootstrap d-flex">
+  <form action="post" class="border m-5 main-form d-inline-block">
+    <div class="form-group mx-5 my-2 p-3">
+      <label for="name">Имя</label>
+      <input type="text" name="name" placeholder="Name" autocomplete="off" class="form-control" maxlength="16">
+      <small class="form-text text-muted" style="cursor:default;">Как мать назвала?</small>
+    </div>
+    <div class="form-group mx-5 my-2 p-3">
+      <label for="password">Пароль</label>
+      <input type="password" name="password" placeholder="Password" autocomplete="off" class="form-control" maxlength="12">
+      <small class="form-text text-muted" style="cursor:default;">Не вспомнишь-гей.</small>
+    </div>
+    <div class="form-group mx-5 my-2 p-3">
+      <label for="email">Email</label>
+      <div class="input-group">
+          <span class="input-group-text">@</span>
+        <input type="email" name="email" placeholder="Email" class="form-control">
+          <span class="input-group-text">.com</span>
+      </div>
+      <small class="form-text text-muted" style="cursor:default;">Заморочка по добавлению текста в input(можно добавлять кнопки и тд)</small>
+    </div>
+    <div class="form-group form-check mx-5 p-3 my-2">
+      <input type="checkbox" id="a" name="check" autocomplete="off" class="form-check-input">
+      <label for="check"><a href="#" class="text-decoration-none">Privacy policy</a></label>
+      <br>
+      <small class="form-text text-muted" style="cursor:default;">к чекбоксу и к его div применены другие классы бутстрап</small>
+    </div>
+    <div class="form-group m-5 p-3 my-2">
+      <label for="select">Выбор из списка: опыт работы</label>
+      <select class="form-control form-select" name="select">
+        <option value="nth" disabled selected>опыт работы</option>
+        <option value="less-1">1 год></option>
+        <option value="ex-1">1 год</option>
+        <option value="ex-2">2 года</option>
+        <option value="ex-3">3 года</option>
+        <option value="more-3">3года<</option>
+      </select>
+    </div>
+
+    <div class="main-radio border">
+
+      <p class="mx-5 my-1">Сфера деятельности</p>
+      <div class="form-group form-check form-check-inline mx-5 mt-1">
+        <input type="radio" name="sp" value="frontend" class="form-check-input">
+        <label for="sp">frontend</label>
+      </div>
+      <div class="form-group form-check form-check-inline mx-5 mb-4">
+        <input type="radio" name="sp" value="backend" class="form-check-input">
+        <label for="sp">backend</label>
+      </div>
+
+      <p class="mx-5 my-1">Фреймворк JS</p>
+      <div class="form-group form-check mx-5 mt-1">
+        <input type="radio" name="pl" value="vue" class="form-check-input">
+        <label for="pl">Vue JS</label>
+      </div>
+      <div class="form-group form-check mx-5 mb-4">
+        <input type="radio" name="pl" value="react" class="form-check-input">
+        <label for="pl">React JS</label>
+      </div>
+      <small class="form-text text-muted mx-5" style="cursor:default;">к чекбоксу и к его div применены другие классы бутстрап</small>
+    </div>
+
+
+    <br><hr>
+
+    <button type="reset" name="button" class="btn btn-success mx-5 my-3 py-2 px-4">Готово</button>
+
+  </form>
+
+  <form action="post" class="border m-5 main-form d-inline-block align-self-start">
+    <div class="form-group mx-5 my-2 p-3">
+      <label for="readonly">Это не просто текст, а поле для ввода информации:</label>
+      <input type="text" name="readonly" placeholder="readonly, plaintext, sm." autocomplete="off" class="form-control form-control-sm form-control-plaintext" readonly>
+      <small class="form-text text-muted" style="cursor:default;">У подсказки тоже есть свои стили</small>
+    </div>
+    <hr>
+    <div class="form-group form-check form-switch mx-5 my-2 p-3">
+      <input type="checkbox" name="check-box-1" class="form-check-input">
+      <label for="check-box-1" class="form-check-label">Красивый переключатель</label>
+      <br>
+      <small class="form-text text-muted" style="cursor:default;">Переключатель можно делать вне тега form</small>
+    </div>
+  </form>
+
+
+</div>
+
+
+<!-- ///////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+<div class="bootstrap">
+
+  <div class="bg-warning text-danger sticky-top w-50 my-2">Я зафиксирован тут с помощью sticky-top и w-50</div>
+  <div class="border d-inline-block">
+    <small class="form-text text-muted text-center" style="cursor:default;">Классы div: d-inline-block <br> Классы block: rounded-pill</small>
+    <div class="block2 border border-danger bg-danger rounded-pill"></div>
+  </div>
+  <div class="border d-inline-block">
+    <small class="form-text text-muted text-center" style="cursor:default;">Классы div: d-inline-block <br> Классы block: rounded-circle, position-static</small>
+    <div class="block2 border border-primary bg-primary rounded-circle position-static"></div>
+  </div>
+
+  <div class="alert alert-success box my-5">
+    <h3 class="alert-heading">Alert</h3> <hr>
+    <p class="alert">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, enim, explicabo. Voluptates, et perspiciatis quos.</p> <hr>
+    <a href="#" class="alert-link">ссылка</a>
+  </div>
+
+  <div class="box border rounded bg-warning my-5">
+      <h3 class="d-inline-block">(badge)Непрочитанных сообщений: <span class="badge bg-info">13</span></h3>
+      <button type="button" class="btn btn-primary position-relative d-inline-block ">
+        Email
+        <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+          13
+          <span class="visually-hidden">unread messages</span>
+        </span>
+      </button>
+  </div>
+
+  <nav class="alert alert-secondary my-5">
+    <h2>Навигация по сайту</h2>
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item"><a href="#">Home page</a></li>
+      <li class="breadcrumb-item"><a href="#">Articles</a></li>
+      <li class="breadcrumb-item active">Navigation</li>
+    </ol>
+  </nav>
+
+  <div class="container my-5">
+    <div class="bg-secondary p-5">
+      <h4 class="display-6">Hello</h4>
+      <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat inventore possimus veniam voluptate nemo a!</p>
+    </div>
+  </div>
+
+  <div class="container border my-5">
+    <ul class="my-5 list-group">
+      <li class="list-group-item active">item^1</li>
+      <li class="list-group-item disabled ">item^2</li>
+      <li class="list-group-item list-group-item-danger">item^3</li>
+    </ul>
+    <ul class="my-5 list-group list-group-flush">
+      <li class="list-group-item list-group-item-success">item^1</li>
+      <li class="list-group-item list-group-item-warning">item^2</li>
+      <li class="list-group-item list-group-item-secondary">item^3</li>
+    </ul>
+    <ul class="my-5 list-group list-group-horizontal">
+      <li class="list-group-item list-group-item-dark">item^1</li>
+      <li class="list-group-item list-group-item-info">item^2</li>
+      <li class="list-group-item list-group-item-primary">item^3</li>
+    </ul>
+  </div>
+
+  <div class="d-flex flex-lg-row flex-column container border p-3 my-5">
+
+    <div class="bg-warning p-2 mx-2 my-1 rounded-2 order-2">
+      1) Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus esse cum sint, est, earum inventore reprehenderit in maxime impedit pariatur et optio atque accusamus commodi dolorem aut ipsam consequuntur! Excepturi.
+    </div>
+    <div class="bg-info p-2 mx-2 my-1 rounded-2 order-3">
+      2) Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam, excepturi!
+    </div>
+    <div class="bg-success p-2 mx-2 my-1 rounded-2 order-1">
+      3) Lorem ipsum dolor sit amet.
+    </div>
+  </div>
+
+  <div class="container d-flex border justify-content-center my-5 p-3">
+    <div class="card w-50 bg-light border rounded-2 p-2">
+      <img src="https://www.travelandleisure.com/thmb/JWO4CNVDNSR-aLDBT93jVlHV1DQ=/1800x1200/filters:fill(auto,1)/new-york-city-evening-NYCTG0221-52492d6ccab44f328a1c89f41ac02aea.jpg" class="card-img-top" alt="New-york">
+      <div class="card-body">
+        <h4 class="card-title">Card: New-york</h4>
+        <h5 class="card-subtitle mb-2 text-muted">Tourism tour</h5>
+        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <button type="button" name="button" class="btn btn-primary btn-lg">Know more!</button>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+</body>
+</html>

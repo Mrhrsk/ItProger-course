@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="author" content="Akylbek Miras">
+  <link rel="stylesheet" href="css/style.css">
+  <title>cssTraining</title>
+  <script src="https://kit.fontawesome.com/d9162f00fa.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+
+<header>
+  <div class="all-header">
+
+    <div class="lang">
+      <a href="#">en</a>
+      <a href="#" class="active">ru</a>
+    </div>
+
+    <div class="header-main">
+      <img src="img/logo.png" alt="logo">
+
+      <input type="search" name="search" placeholder="Начните поиск трека, исполнителя...">
+
+      <a href="#">Загрузить песню</a>
+
+      <button type="button" name="login" class="login">Войти</button>
+      <button type="button" name="signup" class="signup">Регистрация</button>
+    </div>
+
+  </div>
+</header>
+
+<main>
+
+  <div class="section">
+    <div class="h">
+      <h2><span></span> Chill</h2>
+    </div>
+    <div class="img-block">
+      <div class="oneimg">
+        <img src="img/photo-chill.png" alt="chill-track-photo">
+        <h4>Never Chill Before</h4>
+        <p>Pinapple Express</p>
+      </div>
+      <div class="oneimg">
+        <img src="img/photo-chill.png" alt="chill-track-photo">
+        <h4>Never Chill Before</h4>
+        <p>Pinapple Express</p>
+      </div>
+      <div class="oneimg last">
+        <img src="img/photo-chill.png" alt="chill-track-photo">
+        <h4>Never Chill Before</h4>
+        <p>Pinapple Express</p>
+        <div><i class="fa-solid fa-caret-right"></i></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="h">
+      <h2><span></span> Party</h2>
+    </div>
+    <div class="img-block">
+      <div class="oneimg">
+        <img src="img/photo-party.png" alt="chill-track-photo">
+        <h4>Never Chill Before</h4>
+        <p>Pinapple Express</p>
+      </div>
+      <div class="oneimg">
+        <img src="img/photo-party.png" alt="chill-track-photo">
+        <h4>Never Chill Before</h4>
+        <p>Pinapple Express</p>
+      </div>
+      <div class="oneimg last">
+        <img src="img/photo-party.png" alt="chill-track-photo">
+        <h4>Never Chill Before</h4>
+        <p>Pinapple Express</p>
+        <div><i class="fa-solid fa-caret-right"></i></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="h">
+      <h2><span></span> Workout</h2>
+    </div>
+    <div class="img-block">
+      <div class="oneimg">
+        <img src="img/photo-workout.png" alt="chill-track-photo">
+        <h4>Never Chill Before</h4>
+        <p>Pinapple Express</p>
+      </div>
+      <div class="oneimg">
+        <img src="img/photo-workout.png" alt="chill-track-photo">
+        <h4>Never Chill Before</h4>
+        <p>Pinapple Express</p>
+      </div>
+      <div class="oneimg last">
+        <img src="img/photo-workout.png" alt="chill-track-photo">
+        <h4>Never Chill Before</h4>
+        <p>Pinapple Express</p>
+        <div><i class="fa-solid fa-caret-right"></i></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="h">
+      <h2><span></span> Sleep</h2>
+    </div>
+    <div class="img-block">
+      <div class="oneimg">
+        <img src="img/photo-sleep.png" alt="chill-track-photo">
+        <h4>Never Chill Before</h4>
+        <p>Pinapple Express</p>
+      </div>
+      <div class="oneimg">
+        <img src="img/photo-sleep.png" alt="chill-track-photo">
+        <h4>Never Chill Before</h4>
+        <p>Pinapple Express</p>
+      </div>
+      <div class="oneimg last">
+        <img src="img/photo-sleep.png" alt="chill-track-photo">
+        <h4>Never Chill Before</h4>
+        <p>Pinapple Express</p>
+        <div><i class="fa-solid fa-caret-right"></i></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="h">
+      <h2><span></span> Charts: New & Hot</h2>
+    </div>
+    <div class="img-block">
+      <div class="oneimg">
+        <img src="img/photo-charts1.png" alt="chill-track-photo">
+        <h4>Never Chill Before</h4>
+        <p>Pinapple Express</p>
+      </div>
+      <div class="oneimg">
+        <img src="img/photo-charts1.png" alt="chill-track-photo">
+        <h4>Never Chill Before</h4>
+        <p>Pinapple Express</p>
+      </div>
+      <div class="oneimg last">
+        <img src="img/photo-charts1.png" alt="chill-track-photo">
+        <h4>Never Chill Before</h4>
+        <p>Pinapple Express</p>
+        <div><i class="fa-solid fa-caret-right"></i></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="h">
+      <h2><span></span> Charts: Top 50</h2>
+    </div>
+    <div class="img-block">
+      <div class="oneimg">
+        <img src="img/photo-charts2.png" alt="chill-track-photo">
+        <h4>Never Chill Before</h4>
+        <p>Pinapple Express</p>
+      </div>
+      <div class="oneimg">
+        <img src="img/photo-charts2.png" alt="chill-track-photo">
+        <h4>Never Chill Before</h4>
+        <p>Pinapple Express</p>
+      </div>
+      <div class="oneimg last">
+        <img src="img/photo-charts2.png" alt="chill-track-photo">
+        <h4>Never Chill Before</h4>
+        <p>Pinapple Express</p>
+        <div><i class="fa-solid fa-caret-right"></i></div>
+      </div>
+    </div>
+  </div>
+
+</main>
+
+<footer>
+
+<div class="footer">
+  <a href="#">Политика конфиденциальности</a>
+</div>
+
+</footer>
+
+</body>
+</html>
